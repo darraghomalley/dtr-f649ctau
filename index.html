@@ -93,7 +93,7 @@ body {
 		<link id="-gd-engine-icon" rel="icon" type="image/png" href="index.icon.png" />
 <link rel="apple-touch-icon" href="index.apple-touch-icon.png"/>
 <link rel="manifest" href="index.manifest.json">
-<meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="apple-mobile-web-app-title" content="Rainbow">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="apple-mobile-web-app-title" content="Rainbow"><script>(function(){var A=window.alert,K='dtr-gl-reloads';function again(){try{var n=Date.now(),p=JSON.parse(sessionStorage.getItem(K)||'[]').filter(function(t){return n-t<60000;});if(p.length>=3)return false;p.push(n);sessionStorage.setItem(K,JSON.stringify(p));}catch(e){}var go=function(){if(!document.hidden){document.removeEventListener('visibilitychange',go);setTimeout(function(){location.reload();},400);}};document.addEventListener('visibilitychange',go);go();return true;}window.alert=function(m){if(String(m).indexOf('WebGL context lost')>=0&&again())return;return A.apply(window,arguments);};})();</script>
 	</head>
 	<body>
 		<canvas id="canvas">
